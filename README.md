@@ -18,13 +18,12 @@ Visual inspection of civil infrastructure is customarily used to identify and ev
  
 ## Setup
 
-**Show the outcomes in the paper** 
+**Show the outcomes in the paper**  
 1. Clone (or download) the source code in github into a directory of your choice. 
 2. Download and unzip images and output data from the above link and allocate them in the same directory. In the directory, you will have folders of "code","img" and "post". You can manually setup the path of "img" in `Parameters.m`.
 3. Run `RunOutput.m`. 
 
-**Train your own classifier using your images** 
-
+**Train your own classifier using your images**  
 1. Clone (or download) the source code in github into a directory of your choice. 
 2. Manually annotate your object-of-interest using `RunLabeling.m`. 
 3. Run `RunTrainClassifier.m` and `RunTest.m`, consecutively. However, you have to modify and update parameters in `Parameters.m`, applicable to your own application.
