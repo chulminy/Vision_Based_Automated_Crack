@@ -70,7 +70,7 @@ Visual inspection of civil infrastructure is customarily used to identify and ev
 
 ###Show a group of each bolt
 
-** All 68 bolts are successfully grouped. The bolt patches on the right indicate same bolt, extracted from test images on the left.**
+**All 68 bolts are successfully grouped. The bolt patches on the right indicate same bolt, extracted from test images on the left.**
 
 <img src="post/PlotOut7.jpg" width="900" height="331"> 
 
