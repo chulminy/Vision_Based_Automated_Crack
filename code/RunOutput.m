@@ -28,7 +28,7 @@ PLOTOUT6 = false;
 PLOTOUT7 = false;
 
 % (testing) Show crack detection results
-PLOTOUT8 = true;
+PLOTOUT8 = false;
 
 %% PLOTOUT1: (training) Show training images
 if PLOTOUT1
@@ -326,7 +326,7 @@ end
 
 % -------------------------------------------------------------------------
 % Below code is to create images used for web posting. Just ignore.
-webPost = false;
+webPost = true;
 if webPost
     Parameters;
     
@@ -378,8 +378,7 @@ if webPost
             
         end
 
-        imwrite(imresize(imgTmp,[250 400]), ...
-            fullfile(folderHome,'teaser.jpg'));
+        imwrite(imgTmp,fullfile(folderHome,'teaser.jpg'));
     end
 end
 

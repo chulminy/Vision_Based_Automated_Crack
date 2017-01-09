@@ -13,8 +13,14 @@ Visual inspection of civil infrastructure is customarily used to identify and ev
 
 ## Source Code & Data
 * All source code are released in this repository. 
-* You can download original images and results from this link [[**Link**]](). 
+* You can download original images and results from this link [[**Link**]](https://www.amazon.com/clouddrive/share/4e54SCoGGtkK6dUWN2VlLAPmwWQfMdjcM5RcmDFgGi?ref_=cd_ph_share_link_copy). 
 * If you use the codes and images for your publication, **please cite my paper(s).**
+
+## Collaborators
+[**Shirley J. Dyke**](https://engineering.purdue.edu/IISL/)
+
+## Acknowledgment
+I acknowledge support from National Science Foundation under Grant No. NSF-CNS-1035748. I would like to thank Dr. Robert J. Connor and Matt Hebdon at Purdue for providing the test structure and invaluable comments for this study.
  
 ## Setup
 
