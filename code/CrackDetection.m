@@ -32,18 +32,9 @@ options = struct('FrangiScaleRange', Param.FrangiScaleRange, ...
 
 crackPatch=FrangiFilter2D(patch*255,options);
 
-%         figure; imshow(crackPatch,[0 0.25]); title('crack
-%         image');
-
-%         figure; imshow(crackPatch>Param.FrangiFilterThresh);
 BW = crackPatch>Param.FrangiFilterThresh;
 BW = imclearborder(BW, 8);
 BW = bwareaopen(BW, Param.minEdgeArea);
-
-% radonTransform(distance mask * crackPatch)
-%       figure; imshow(BW), title('thresholding crack images');
-
-%       figure; imshow(BW), title('clear border');
 
 BW = (BW .* mask) > 0;
 stats = regionprops(BW, 'Centroid', 'Area', 'Perimeter','PixelList',  ...
@@ -70,14 +61,6 @@ BW1    = bwselect(BW,col_obj,row_obj,8);
 [~,ind1]=max(max(R));
 cc = ind(ind1);
 rr = ind1;
-
-% if (radonRange(cc,rr) ~= 0)
-%     fig = figure(10);
-%     subplot(131); imshow(patch);
-%     subplot(132); imshow(BW1);
-%     subplot(133); imshow(mask.*patch);
-%     saveas(fig,[resultCrackPath '\Crack' int2str(ii) '_' int2str(jj) '.jpg' ]);
-% end
 
 if (radonRange(cc,rr) ~= 0)
     crackBW = false(size(patchOrg,1),size(patchOrg,2));

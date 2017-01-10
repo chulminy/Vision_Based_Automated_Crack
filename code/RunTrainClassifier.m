@@ -1,6 +1,6 @@
 %% Description 
 %
-% This file is to train a classifier for bolt patch dection. First, based
+% This file is to train a classifier for bolt patch dection. First, using
 % on positive and negative patches annotated from "RunLabeling.m", a bolt
 % patch classifier is trained. Next, you will apply this classifier to the
 % entire areas of all training images and detect positive and negative

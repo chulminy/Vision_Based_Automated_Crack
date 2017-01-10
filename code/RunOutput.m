@@ -7,28 +7,28 @@ Parameters;
 % Set "Yes" in the outcome that you want.
 
 % (training) Show original training images
-PLOTOUT1 = false;
+PLOTOUT1 = true;
 
 % (training) Show positive and negative patches for training
-PLOTOUT2 = false;
+PLOTOUT2 = true;
 
 % (training) Show channel patches
-PLOTOUT3 = false;
+PLOTOUT3 = true;
 
 % (training) Show classified patches on training images
-PLOTOUT4 = false;
+PLOTOUT4 = true;
 
 % (testing) Show testing images
-PLOTOUT5 = false;
+PLOTOUT5 = true;
 
 % (testing) Show detected objects
-PLOTOUT6 = false;
+PLOTOUT6 = true;
 
 % (testing) Show a group of each bolt
-PLOTOUT7 = false;
+PLOTOUT7 = true;
 
 % (testing) Show crack detection results
-PLOTOUT8 = false;
+PLOTOUT8 = true;
 
 %% PLOTOUT1: (training) Show training images
 if PLOTOUT1

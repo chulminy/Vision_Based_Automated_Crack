@@ -6,7 +6,7 @@
 Visual inspection of civil infrastructure is customarily used to identify and evaluate faults such as cracks, corrosion, or deformation. However, current procedures followed by human inspectors demand long inspection times to cover large and difficult to access bridges, and rely strongly on the inspector’s subjective or empirical knowledge. To address these limitations, a new vision-based visual inspection technique is proposed by automatically processing and **analyzing a large volume of collected images from unspecified locations using computer vision algorithm**. By evaluating images from many different angles and utilizing knowledge of a fault’s typical appearance and characteristics, the proposed technique can successfully detect faults on a structure. 
 
 ## Publication
-**Chul Min Yeum** and Shirley J Dyke. “Vision-Based Automated Crack Detection for Bridge Inspection.” Computer-Aided Civil and Infrastructure Engineering 30, no. 10 (2015): 759–770.[**[Web]**](http://onlinelibrary.wiley.com/doi/10.1111/mice.12141/abstract),[**[Paper]**](http://chulminy.github.io/cv/Files/Journal/2015_CACAIE_Vision_Based_Automated.pdf)
+**Chul Min Yeum** and Shirley J Dyke. “Vision-Based Automated Crack Detection for Bridge Inspection.” Computer-Aided Civil and Infrastructure Engineering 30, no. 10 (2015): 759–770.[**[Web]**](http://onlinelibrary.wiley.com/doi/10.1111/mice.12141/abstract).
 
 
 **Chul Min Yeum** and Shirley J. Dyke. “Vision-based Automated Visual Inspection of Large-scale Bridges”. Sixth World Conference on Structural Control and Monitoring, July, 2014. [**[Paper]**](http://chulminy.github.io/cv/Files/Conference/2013_6WCSM_Paper.pdf),[**[PPT]**](http://chulminy.github.io/cv/Files/Conference/2013_6WCSM_PPT.pdf) 
@@ -16,7 +16,7 @@ Visual inspection of civil infrastructure is customarily used to identify and ev
 * You can download original images and results from this link [[**Link**]](https://www.amazon.com/clouddrive/share/4e54SCoGGtkK6dUWN2VlLAPmwWQfMdjcM5RcmDFgGi?ref_=cd_ph_share_link_copy). 
 * If you use the codes and images for your publication, **please cite my paper(s).**
 
-## Collaborators
+## Collaborator
 [**Shirley J. Dyke**](https://engineering.purdue.edu/IISL/)
 
 ## Acknowledgment
@@ -24,10 +24,10 @@ I acknowledge support from National Science Foundation under Grant No. NSF-CNS-1
  
 ## Setup
 
-**Show the outcomes in the paper**  
+**Display the outcomes in the paper**  
 
 1. Clone (or download) the source code in github into a directory of your choice. 
-2. Download and unzip images and output data from the above link and allocate them in the same directory. In the directory, you will have folders of "code","img" and "post". You can manually setup the path of "img" in `Parameters.m`.
+2. Download and unzip images and output data from the above [**link**]((https://www.amazon.com/clouddrive/share/4e54SCoGGtkK6dUWN2VlLAPmwWQfMdjcM5RcmDFgGi?ref_=cd_ph_share_link_copy) and allocate them in the same directory. In the directory, you will have folders of "code","img" and "post". You can also manually setup the path of "img" in `Parameters.m`.
 3. Run `RunOutput.m`. 
 
 **Train your own classifier using your images**
@@ -35,7 +35,7 @@ I acknowledge support from National Science Foundation under Grant No. NSF-CNS-1
 1. Clone (or download) the source code in github into a directory of your choice. 
 2. Manually annotate your object-of-interest using `RunLabeling.m`. 
 3. Run `RunTrainClassifier.m` and `RunTest.m`, consecutively. However, you have to modify and update parameters in `Parameters.m`, applicable to your own application.
-4. I would recommend that you first understand the flow of the code using my images.  
+4. I would recommend that you first understand the flow of the code using the images in the [**paper**](http://onlinelibrary.wiley.com/doi/10.1111/mice.12141/abstract).  
 
 ##Sample Outcome 
 
@@ -59,7 +59,7 @@ I acknowledge support from National Science Foundation under Grant No. NSF-CNS-1
 
 ###Show classified patches on training images
 
-**Green,blue, and red boxes indicate ground-truth bolt annotations, detected positive patches, and detected negative patches, respectively.**
+**Green,blue, and red boxes indicate ground-truth bolt patches, detected positive patches, and detected negative patches, respectively.**
 
 <img src="post/PlotOut4.jpg" width="900" height="598"> 
 
