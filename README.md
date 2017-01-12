@@ -9,12 +9,12 @@ Visual inspection of civil infrastructure is customarily used to identify and ev
 **Chul Min Yeum** and Shirley J Dyke. “Vision-Based Automated Crack Detection for Bridge Inspection.” Computer-Aided Civil and Infrastructure Engineering 30, no. 10 (2015): 759–770.[**[Web]**](http://onlinelibrary.wiley.com/doi/10.1111/mice.12141/abstract).
 
 
-**Chul Min Yeum** and Shirley J. Dyke. “Vision-based Automated Visual Inspection of Large-scale Bridges”. Sixth World Conference on Structural Control and Monitoring, July, 2014. [**[Paper]**](http://chulminy.github.io/cv/Files/Conference/2013_6WCSM_Paper.pdf),[**[PPT]**](http://chulminy.github.io/cv/Files/Conference/2013_6WCSM_PPT.pdf) 
+**Chul Min Yeum** and Shirley J. Dyke. “Vision-based Automated Visual Inspection of Large-scale Bridges”. Sixth World Conference on Structural Control and Monitoring, July, 2014. [**[Paper]**](http://chulminy.github.io/cv/Files/Conference/2013_6WCSM_Paper.pdf),[**[PPT]**](http://chulminy.github.io/cv/Files/Conference/2013_6WCSM_PPT.pdf). 
 
 ## Source Code & Data
 * All source code are released in this repository. 
 * You can download original images and results from this link [[**Link**]](https://www.amazon.com/clouddrive/share/4e54SCoGGtkK6dUWN2VlLAPmwWQfMdjcM5RcmDFgGi?ref_=cd_ph_share_link_copy). 
-* If you use the codes and images for your publication, **please cite my paper(s).**
+* If you use the code and images for your publication, **please cite my paper(s).**
 
 ## Collaborator
 [**Shirley J. Dyke**](https://engineering.purdue.edu/IISL/)
