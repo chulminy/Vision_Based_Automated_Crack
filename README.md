@@ -13,7 +13,7 @@ Visual inspection of civil infrastructure is customarily used to identify and ev
 
 ## Source Code & Data
 * All source code are released in this repository. 
-* You can download original images and results from this link [[**Link**]](https://www.amazon.com/clouddrive/share/0ZSAuDpSVM65fswl1q8r8y1fSykjLuD9k1OtWhK0BYC?ref_=cd_ph_share_link_copy). 
+* You can download original images and results from this link [[**Link**]](https://drive.google.com/open?id=1G3zzx71aPPXgfMmiUMbU9Ygj2y-J96ws). 
 * If you use the code and images for your publication, **please cite my paper(s).**
 
 ## Collaborator
@@ -27,7 +27,7 @@ I acknowledge support from National Science Foundation under Grant No. NSF-CNS-1
 **Display the outcomes in the paper**  
 
 1. Clone (or download) the source code in github into a directory of your choice. 
-2. Download and unzip images and output data from the above [**link**](https://www.amazon.com/clouddrive/share/0ZSAuDpSVM65fswl1q8r8y1fSykjLuD9k1OtWhK0BYC?ref_=cd_ph_share_link_copy) and allocate them in the same directory. In the directory, you will have folders of "code","img" and "post". You can also manually setup the path of "img" in `Parameters.m`.
+2. Download and unzip images and output data from the above [**link**](https://drive.google.com/open?id=1G3zzx71aPPXgfMmiUMbU9Ygj2y-J96ws) and allocate them in the same directory. In the directory, you will have folders of "code","img" and "post". You can also manually setup the path of "img" in `Parameters.m`.
 3. Run `RunOutput.m`. 
 
 **Train your own classifier using your images**
@@ -37,51 +37,51 @@ I acknowledge support from National Science Foundation under Grant No. NSF-CNS-1
 3. Run `RunTrainClassifier.m` and `RunTest.m`, consecutively. However, you have to modify and update parameters in `Parameters.m`, applicable to your own application.
 4. I would recommend that you first understand the flow of the code using the images in the [**paper**](http://onlinelibrary.wiley.com/doi/10.1111/mice.12141/abstract).  
 
-##Sample Outcome 
+## Sample Outcome 
 
-###Training images
+### Training images
 **Five images collected from the same structure were used for training.**
 
 <img src="post/PlotOut1.jpg" width="900" height="399"> 
 
 
-###Positive and negative patches for training 
+### Positive and negative patches for training 
 
 **Positive (right) and negative (left) patches were annotated and extracted from the training images.**
 
 <img src="post/PlotOut2.jpg" width="900" height="394"> 
 
-###Show channel patches
+### Show channel patches
 
 **A total of 11 channel images are used to extract features, including U and V components in LUV, H and S components in HSV, gradient, and histogram of gradient with 6 orientations (0°, 30°, 60°, 90°, 120°, 150°).**
 
 <img src="post/PlotOut3.jpg" width="900" height="394"> 
 
-###Show classified patches on training images
+### Show classified patches on training images
 
 **Green,blue, and red boxes indicate ground-truth bolt patches, detected positive patches, and detected negative patches, respectively.**
 
 <img src="post/PlotOut4.jpg" width="900" height="598"> 
 
-###Show testing images
+### Show testing images
 
 **All 67 images are used for testing.**
 
 <img src="post/PlotOut5.jpg" width="900" height="214"> 
 
-###Show detected objects
+### Show detected objects
 
 **Blue boxes indicate detected positive patches.**
 
 <img src="post/PlotOut6.jpg" width="900" height="399"> 
 
-###Show a group of each bolt
+### Show a group of each bolt
 
 **All 68 bolts are successfully grouped. The bolt patches on the right indicate same bolt, extracted from test images on the left.**
 
 <img src="post/PlotOut7.jpg" width="900" height="331"> 
 
-###Show crack detection results
+### Show crack detection results
 
 **Crack detection on the Bolt (a): The red line is the detected crack.** 
 
